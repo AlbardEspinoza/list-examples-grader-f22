@@ -1,3 +1,6 @@
+# You did not add the "lib/" before hamcrest-core-1.3.jar
+# javac does not catch it at compile time because it's not necessary at compilation, but
+# it is at runtime. Look for examples when the former happens. 
 CPATH='.:hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
